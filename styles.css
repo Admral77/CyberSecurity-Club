@@ -1,0 +1,55 @@
+body {
+    font-family: monospace;
+    background-color: #1e1e1e;
+    color: #c5c5c5;
+    margin: 0;
+    padding: 0;
+}
+
+#terminal {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #000;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#input-wrapper {
+    display: flex;
+}
+
+.prompt {
+    color: #00ff00;
+}
+
+#command-input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    color: #c5c5c5;
+    font-family: monospace;
+    font-size: 1em;
+    outline: none;
+}
+
+.welcome {
+    color: #ff66cc;
+}
+
+.error {
+    color: #ff6666;
+}
+
+.recipe-title {
+    font-weight: bold;
+}
+
+.recipe-description {
+    margin-bottom: 20px;
+}
