@@ -30,23 +30,18 @@ const commands = {
     'events': `
         <div>Upcoming Events:</div>
         <ul>
-            <li>Monthly Meeting: 1st Monday of every month at 6 PM</li>
-            <li>Workshop: Network Security Basics - 15th of this month at 4 PM</li>
-            <li>Guest Speaker: Cyber Threats & Mitigation - 22nd of this month at 7 PM</li>
+            <li>Biweekly Meetings: Tuesday and Thursday at 2:20 PM</li>
         </ul>
     `,
     'resources': `
         <div>Useful Cybersecurity Resources:</div>
         <ul>
-            <li><a href="https://www.cybrary.it/" target="_blank">Cybrary</a> - Free cybersecurity training and courses</li>
-            <li><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a> - Hands-on hacking practice and challenges</li>
-            <li><a href="https://www.owasp.org/" target="_blank">OWASP</a> - Open Web Application Security Project</li>
+            <li><a href="https://tryhackme.com/" target="_blank">TryHackMe</a> - Hands-on hacking practice and challenges</li>
         </ul>
     `,
     'contact': `
         <div>Contact us:</div>
-        <div>Email: <a href="mailto:info@cybersecurityclub.com">info@cybersecurityclub.com</a></div>
-        <div>Twitter: <a href="https://twitter.com/CyberSecClub" target="_blank">@CyberSecClub</a></div>
+        <div>Email: <a href="mailto:djmil790@learner.dvusd.org">Club President</a></div>
     `,
     'clear': 'clear',
 };
